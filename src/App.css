@@ -1,0 +1,41 @@
+.container {
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8em;
+
+}
+
+.container__title {
+    text-shadow: 0.1em 0.1em #8f8f86ab;
+    font-size: 4rem;
+}
+
+.container__phrase {
+    width: 100%;
+    max-width: 30em;
+    background-color: rgba(240, 248, 255, 0.432);
+    padding: 1em 2em;
+    font-size: 20px;
+    line-height: 1.4;
+    border-radius: 20%;
+}
+
+.container__btn {
+    padding: 0.8em 1.2em;
+    border-radius: 0.7em;
+    font-size:  1.5rem;
+    background-color: rgba(0, 0, 255, 0.452);
+    transition: all 200ms ease;
+}
+
+.container__btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 0 0.8em #0005;
+
+}
